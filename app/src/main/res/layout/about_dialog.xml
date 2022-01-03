@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:backgroundTint="@color/black"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:fontFamily="@font/aldrich"
+            android:padding="2dp"
+            android:shadowColor="@color/green"
+            android:shadowRadius="10"
+            android:text="Shokirov Ollohberdi"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="190dp"
+            android:layout_height="190dp"
+            app:civ_border_width="1dp"
+            android:layout_margin="5dp"
+            app:civ_border_color="@color/green"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="centerCrop"
+            android:src="@drawable/my_photo" />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/autour_one"
+            android:padding="2dp"
+            android:shadowColor="@color/green"
+            android:shadowRadius="10"
+            android:text="Android Developer(Kotlin,Java)\nAge: 16\nCountry: Uzbekistan"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:textStyle="italic" />
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
